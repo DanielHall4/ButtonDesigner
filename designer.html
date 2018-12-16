@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Button Designer</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="button-area">
+        <button id="button" style="border: none;">Example</button>
+    </div>
+    <div id="container">
+        <div id="text-input-container">
+            Text: <input type="input" class="slider" id="textInput">
+        </div>
+        <div id="cslider-container">
+            Color: <input type="color" min="1" max="100" class="slider" id="cSlider">
+        </div>
+        <div id="rslider-container">
+            Radius:<input type="range" min="1" max="11" value="6" class="slider" id="rSlider">
+            <p style="display: inline;" id="rslider-value">test</p>
+        </div>
+        <div id="fslider-container">
+            Font Size:<input type="range" min="10" max="40" value="15" class="slider" id="fSlider">
+            <p style="display: inline;" id="fslider-value">test</p>
+        </div>
+        <div id="hslider-container">
+            Height:<input type="range" min="10" max="75" value="35" class="slider" id="hSlider">
+            <p style="display: inline;" id="hslider-value">test</p>
+        </div>
+        <div id="wslider-container">
+            Width:<input type="range" min="50" max="200" value="70" class="slider" id="wSlider">
+            <p style="display: inline;" id="wslider-value">test</p>
+        </div>
+        <div id="pslider-container">
+            Padding:<input type="range" min="1" max="10" value="5" class="slider" id="pSlider">
+            <p style="display: inline;" id="pslider-value">test</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

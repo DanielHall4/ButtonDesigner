@@ -1,0 +1,28 @@
+/* Default style when page loads */
+#button{
+    border-radius: 6px;
+    font-size: 15px;
+    height: 35px;
+    width: 70px;
+    padding: 5px;
+}
+body{
+    background-color: rgb(41, 41, 41);
+    color: rgb(228, 228, 228);
+    font-family: 'Oswald', sans-serif;
+}
+
+#button-area{
+    left: 50%;
+    position: absolute;
+    top: 10%;
+}
+
+#container{
+    top: 25%;
+    position: absolute;
+}
+
+#text-input-container, #cslider-container, #fslider-container, #rslider-container, #hslider-container, #wslider-container, #pslider-container{
+    padding-top: 20px;
+}
