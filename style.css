@@ -10,17 +10,28 @@ body{
     background-color: rgb(41, 41, 41);
     color: rgb(228, 228, 228);
     font-family: 'Oswald', sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 #button-area{
-    left: 50%;
     position: absolute;
-    top: 10%;
+    margin-top: -80px;
+    margin-right: auto;
+    margin-left: 45%;
 }
 
 #container{
-    top: 25%;
-    position: absolute;
+    margin-top: 100px;
+    position: relative;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 #text-input-container, #cslider-container, #fslider-container, #rslider-container, #hslider-container, #wslider-container, #pslider-container{
